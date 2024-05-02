@@ -5,6 +5,9 @@ prefix = {
 
 aws_region = "us-east-1"
 
+s3 = {
+  name = "S3_Bucket6543"
+}
 
 vpc = {
   vpc_cidr_block  = "10.0.0.0/16"
@@ -17,7 +20,6 @@ vpc = {
   enable_dns_hostnames = true
   enable_dns_support   = true
 }
-
 
 auto_scaling = { Daily_Scan_EC2 = {
   name                        = "Daily Scan EC2's"
@@ -96,4 +98,3 @@ security_group = {
   tcp_protocol      = "TCP"
   all_protocol      = "-1"
   cidr_allow_all    = ["0.0.0.0/0"]
-}

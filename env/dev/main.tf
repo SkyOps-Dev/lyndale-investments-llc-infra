@@ -3,7 +3,7 @@ module "vpc" {
   vpc    = var.vpc
   prefix = var.prefix
 }
-
+  
 module "autoscaling_a" {
   source          = "../../module/autoscaling"
   auto_scaling     = var.auto_scaling.Trade_Staging_EC2
