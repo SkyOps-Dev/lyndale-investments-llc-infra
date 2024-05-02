@@ -98,3 +98,4 @@ security_group = {
   tcp_protocol      = "TCP"
   all_protocol      = "-1"
   cidr_allow_all    = ["0.0.0.0/0"]
+}
