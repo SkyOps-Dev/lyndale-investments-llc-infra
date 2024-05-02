@@ -6,3 +6,11 @@ variable "vpc" {}
 variable "prefix" {}
 variable "auto_scaling" {}
 variable "security_group" {}
+
+variable "rds" {}
+
+variable "import_lambda" {}
+
+variable "load_lambda" {}
+
+variable "s3" {}
